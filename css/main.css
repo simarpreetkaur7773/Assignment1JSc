@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+#main{
+    display: flex;
+}
+
+#showStory
+{
+    display: flex;
+}
+
+/* Button colour and sizing */
+
+#noun{
+    background-color: purple;
+    margin: 20px;
+}
+#verb{
+    background-color: lightskyblue;
+}
+#adjective{
+    background-color: green;
+}
+#nounstwo{
+    background-color: orange;
+}
+#settings{
+    background-color: pink;
+    align-items: flex-end;
+}
+#randomStory{
+  align-items: flex-end;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+  
+  button {
+    font-size: larger;
+    height: 50px;
+    width: 90px;
+    border: 1px solid black;
+    margin: 0 1em; 
+    border-radius: 20px;
+  }
+  button:hover {
+    transition: 0.2s;
+    background-color: rgb(0, 0, 0); 
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 100;
+    box-shadow: 0 5px 25px rgba(0,0,0,.2);
+    color: #fff;
+  }
+  .buttons i{
+    height: 45px;
+    width: 45px;
+    background: var(--text-color);
+    color: black;
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 15px;
+    transition: all .45s ease;
+}
+.buttons i:hover{
+    background: var(--text-color);
+    color: var(--main-color);
+}
+/*  */
+  
+  ul {
+    flex: 1;
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid black;
+    margin: 0;
+  }
+  
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li>div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em;
+}
+
+ul:nth-of-type(1)
+{
+    background-color: purple
+}
+ul:nth-of-type(2)
+{
+    background-color: skyblue
+}
+ul:nth-of-type(3)
+{
+    background-color: green
+}
+ul:nth-of-type(4)
+{
+    background-color: orange
+}
+ul:nth-of-type(5)
+{
+    background-color: pink
+}
+
+#main {
+    display: flex;
+  }
+
+  ul {
+    flex: 1;
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid black;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+  }
+  #display{
+    height: 1em;
+    padding-top: 1em;
+    text-decoration: underline;
+  }
+
+  h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+  }
+  h1 span{
+    color: red;
+  }
+  /* copy right code */
+
+  .copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.copyright p{
+    font-size: 0.9rem;
+    color: var(--text-colors);
+}
+
+
+/*fjhfhf*/
+
+.threeButtons
+{
+  display: flex;
+  flex-direction: column;
+  padding-left: 4em;
+  gap: 3em;
+  
+}
+
+.threeButtons > button
+{
+  transform: scale(1.5);
+  font-size: 15px;
+}
+
+#mainandbutton
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10em;
+}
+
+.threeButtons > button:hover
+{
+  transition: 0.3s;
+  transform: scale(1.7);
+}
